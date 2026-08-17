@@ -1,6 +1,3 @@
--- database.sql
--- Import file ini di phpMyAdmin (atau `mysql -u root -p < database.sql`)
-
 CREATE DATABASE IF NOT EXISTS sipustaka CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE sipustaka;
 
