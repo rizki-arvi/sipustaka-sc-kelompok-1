@@ -1,6 +1,5 @@
 <?php
-// $active harus di-set di halaman pemanggil sebelum include ini,
-// nilainya salah satu dari: dashboard, koleksi, daftar, tambah
+
 $active = $active ?? '';
 function nav_active($key, $active){ return $key === $active ? 'active' : ''; }
 ?>
