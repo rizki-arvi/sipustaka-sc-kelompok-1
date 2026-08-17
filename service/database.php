@@ -1,5 +1,4 @@
 <?php
-// service/database.php
 
 $conn = mysqli_connect("localhost", "root", "", "sipustaka");
 
