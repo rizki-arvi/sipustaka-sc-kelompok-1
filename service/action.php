@@ -1,5 +1,4 @@
 <?php
-// service/action.php
 
 include "database.php";
 
@@ -10,7 +9,6 @@ $tahun = $_POST['tahun'];
 $kategori = $_POST['kategori'];
 $status = $_POST['status'];
 
-// Fitur upload cover belum sempat dikerjakan, jadi disimpan kosong dulu.
 $cover = "";
 
 $query = "INSERT INTO buku (judul, penulis, penerbit, tahun, kategori, status, cover)
